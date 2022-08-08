@@ -77,6 +77,7 @@ eg:4eb87b3 (to undo a particular commit, not completely safe)
 
 ### Branches
 
+
 - Creating and selecting a new branch: `git Checkout -b [branch-name]` (short method)
 
 - Creating new branch: `git branch [branch-name]`
