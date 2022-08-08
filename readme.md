@@ -52,7 +52,7 @@ To remove the scary screen: `:wq`
 - Adding all files in staging area at once: `git add .`
 
 - Making commit: `git commit -m "added [my-dir] and
-[my-dir-2]"`(any message explaining work done in commit)
+[my-dir-2]"` (any message explaining work done in commit)
 
 - To see commit history: `git log`
 
@@ -66,6 +66,8 @@ eg:4eb87b3 (to undo a particular commit, not completely safe)
 - Reset commit:`git reset [commit-id] ` eg:4eb87b3 (permanently takes to desired point in time, unsafe)
 
 - To remove changes from text editor: `git reset [commit-id] --hard`
+
+- Pushing from local repo to remote repo: `git push [url]` (url of repo to which the code is to be pushed) `[branch-name]` (the branch which is to be pushed up)
 
 ### Branches
 
