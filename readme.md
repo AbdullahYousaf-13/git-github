@@ -4,7 +4,7 @@ A repo covering basic concepts of Git and Github
 
 ## CMD Commands
 
-- 
+-
 - Going back one folder: `cd ..`
 - Going to desired folder in the current directory: `cd home => cd [my-dir]` (Use tab to get full name of directory)
 - To list the contents of current folder: `ls` or `dir`
@@ -35,23 +35,42 @@ A repo covering basic concepts of Git and Github
 
 - Checking the status of a file:
   `git status`
-- Intializing git repo: `git init` (used so git can track any changes made)
+- Initializing git repo: `git init` (used so git can track any changes made)
 
 - Adding a file to staging area: `git add [my-dir]` (name of the file)
 
-- Removing a file from staging area: `git reset [my-dir]` (name of the file) or`git rm --cached [my-dir]` (name of the file)
+- Removing a file from staging area: `git reset [my-dir]` (name of the file) or `git rm --cached [my-dir]` (name of the file)
 
 - Adding all files in staging area at once: `git add .`
 
 - Making commit: `git commit -m "added [my-dir] and
-[my-dir-2]"`(any message explaning work done in commit)
+[my-dir-2]"`(any message explaining work done in commit)
 
 - To see commit history: `git log`
 
 - To see commit history in short: `git log --oneline`
 
-- Checkout commit:`` (shows code at desired point in time, does not change commit history)
+- Checkout commit: `git checkout [commit-id]` eg:4eb87b3 (takes to desired point in time, does not change commit history, perfectly safe)
 
-- Revert commit:``
+- Revert commit: `git revert [commit-id]`
+eg:4eb87b3 (to undo a particular commit, not completely safe)
 
-- Reset commit:``
+- Reset commit:`git reset [commit-id] ` eg:4eb87b3 (permanently takes to desired point in time, unsafe)
+
+- To remove changes from text editor: `git reset [commit-id] --hard`
+
+### Branches
+
+- Creating and selecting a new branch: `git Checkout -b [branch-name]` (short method)
+
+- Creating new branch: `git branch [branch-name]`
+
+- Selecting a branch: `git Checkout [branch-name]`
+
+- Viewing all branches: `git branch -a`
+
+- Deleting a branch: `git branch -D [branch-name]` or `git branch -d [branch-name]` (works if branch is fully merged)
+
+#### Merging branches
+
+-
