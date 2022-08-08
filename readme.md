@@ -67,6 +67,8 @@ eg:4eb87b3 (to undo a particular commit, not completely safe)
 
 - Pushing from local repo to remote repo: `git push [url]` (url of repo to which the code is to be pushed) `[branch-name]` (the branch which is to be pushed up) or `git push origin [branch-name]` (if repo is assigned an alias) or `git remote -v` (use if repo is cloned)
 
+- Pulling from remote repo to local repo: `git pill [branch-name]`
+
 - Giving remote repo an alias: `git remote add origin [url]`
 
 - Cloning a repo: `git clone [url]`
