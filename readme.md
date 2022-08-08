@@ -65,9 +65,11 @@ eg:4eb87b3 (to undo a particular commit, not completely safe)
 
 - Reset commit: `git reset [commit-id] ` eg:4eb87b3 (permanently takes to desired point in time, unsafe)
 
-- Pushing from local repo to remote repo: `git push [url]` (url of repo to which the code is to be pushed) `[branch-name]` (the branch which is to be pushed up) or `git push origin [branch-name]`
+- Pushing from local repo to remote repo: `git push [url]` (url of repo to which the code is to be pushed) `[branch-name]` (the branch which is to be pushed up) or `git push origin [branch-name]` (if repo is assigned an alias) or `git remote -v` (use if repo is cloned)
 
 - Giving remote repo an alias: `git remote add origin [url]`
+
+- Cloning a repo: `git clone [url]`
 
 - To remove changes from text editor: `git reset [commit-id] --hard`
 
@@ -84,3 +86,5 @@ eg:4eb87b3 (to undo a particular commit, not completely safe)
 - Deleting a branch: `git branch -D [branch-name]` or `git branch -d [branch-name]` (works if branch is fully merged)
 
 - Merging a branch: `git merge [branch-name]` (first select the branch to which it is to be merged)
+
+- Keeping files locally up to date with remote repo: `git pull origin master`
