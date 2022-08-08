@@ -63,9 +63,11 @@ To remove the scary screen: `:wq`
 - Revert commit: `git revert [commit-id]`
 eg:4eb87b3 (to undo a particular commit, not completely safe)
 
-- Reset commit:`git reset [commit-id] ` eg:4eb87b3 (permanently takes to desired point in time, unsafe)
+- Reset commit: `git reset [commit-id] ` eg:4eb87b3 (permanently takes to desired point in time, unsafe)
 
-- Pushing from local repo to remote repo: `git push [url]` (url of repo to which the code is to be pushed) `[branch-name]` (the branch which is to be pushed up)
+- Pushing from local repo to remote repo: `git push [url]` (url of repo to which the code is to be pushed) `[branch-name]` (the branch which is to be pushed up) or `git push origin [branch-name]`
+
+- Giving remote repo an alias: `git remote add origin [url]`
 
 - To remove changes from text editor: `git reset [commit-id] --hard`
 
