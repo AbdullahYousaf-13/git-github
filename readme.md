@@ -4,18 +4,26 @@ A repo covering basic concepts of Git and Github
 
 ## CMD Commands
 
--
+- Selecting drive: `[drive-name] :` (eg: E:)
+
 - Going back one folder: `cd ..`
+
 - Going to desired folder in the current directory: `cd home => cd [my-dir]` (Use tab to get full name of directory)
+
 - To list the contents of current folder: `ls` or `dir`
+
 - To create new directory: `mkdir [my-dir]` (name of the directory)
+
 - To delete a directory: rmdir [my-dir] (name of the directory)
 
+
 - To create new file: `touch [my-dir]` (name of the file)
+
 - To delete a file: rm `[my-dir]` (name of the file)
 
 - To open a new file with the Text editor: `[text-editor]` (name of the editor) `[my-dir]` (name of the file)
 
+To remove the scary screen: `:wq`
 
 ## Git Commands
 
@@ -71,6 +79,4 @@ eg:4eb87b3 (to undo a particular commit, not completely safe)
 
 - Deleting a branch: `git branch -D [branch-name]` or `git branch -d [branch-name]` (works if branch is fully merged)
 
-#### Merging branches
-
--
+- Merging a branch: `git merge [branch-name]` (first select the branch to which it is to be merged)
