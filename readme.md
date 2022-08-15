@@ -8,6 +8,8 @@ A repo covering basic concepts of Git and Github
 
 - Going back one folder: `cd ..`
 
+- Going back tow folders: `cd ../..`
+
 - Going to desired folder in the current directory: `cd home => cd [my-dir]` (Use tab to get full name of directory)
 
 - To list the contents of current folder: `ls` or `dir`
@@ -67,7 +69,7 @@ eg:4eb87b3 (to undo a particular commit, not completely safe)
 
 - Pushing from local repo to remote repo: `git push [url]` (url of repo to which the code is to be pushed) `[branch-name]` (the branch which is to be pushed up) or `git push origin [branch-name]` (if repo is assigned an alias) or `git remote -v` (use if repo is cloned)
 
-- Pulling from remote repo to local repo: `git pill [branch-name]`
+- Pulling from remote repo to local repo: `git pull [branch-name]`
 
 - Giving remote repo an alias: `git remote add origin [url]`
 
