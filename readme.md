@@ -4,7 +4,7 @@ A repo covering basic concepts of Git and Github
 
 ## CMD Commands
 
-- Selecting drive: `[drive-name] :` (eg: E:)
+- Selecting drive: `[drive-name:] :` (eg: E:)
 
 - Going back one folder: `cd ..`
 
