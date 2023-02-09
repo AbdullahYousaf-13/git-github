@@ -8,7 +8,7 @@ A repo covering basic concepts of Git and Github
 
 - Going back one folder: `cd ..`
 
-- Going back tow folders: `cd ../..`
+- Going back two folders: `cd ../..`
 
 - Going to desired folder in the current directory: `cd home => cd [my-dir]` (Use tab to get full name of directory)
 
