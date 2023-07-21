@@ -44,7 +44,8 @@ To remove the scary screen: `:wq`
 - To check who is making changes: `git config user.name`
 
 - Checking the status of a file:
-  `git status`
+`git status`
+
 - Initializing git repo: `git init` (used so git can track any changes made)
 
 - Adding a file to staging area: `git add [my-dir]` (name of the file)
@@ -93,3 +94,31 @@ eg:4eb87b3 (to undo a particular commit, not completely safe)
 - Merging a branch: `git merge [branch-name]` (first select the branch to which it is to be merged)
 
 - Keeping files locally up to date with remote repo: `git pull origin master`
+
+
+
+# Important
+
+## CMD Commands
+
+- Selecting drive: `[drive-name:] :` (eg: E:)
+
+- Going back one folder: `cd ..`
+
+- Going to next known directory `cd [my-dir]\`
+
+- To list the contents of current folder: `ls` or `dir`
+
+- Checking the status of a file:
+`git status`
+
+
+## Git Commands
+
+- Adding all files in staging area at once: `git add .`
+
+- Making commit: `git commit -m "added [my-dir]"`
+
+- Giving remote repo an alias: `git remote add origin [url]`
+
+- Pushing from local repo to remote repo: `git push [url]` (url of repo to which the code is to be pushed) `[branch-name]` (the branch which is to be pushed up) or `git push origin [branch-name]` (if repo is assigned an alias)
